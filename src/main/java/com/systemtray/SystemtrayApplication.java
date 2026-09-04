@@ -30,7 +30,7 @@ public class SystemtrayApplication {
 			return null;
 
 		Image image = Toolkit.getDefaultToolkit().getImage(
-				SystemtrayApplication.class.getResource("/icon.png"));
+				SystemtrayApplication.class.getResource("/sup.png"));
 
 		PopupMenu popup = new PopupMenu();
 		MenuItem exit = new MenuItem("Exit");
