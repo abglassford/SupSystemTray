@@ -15,10 +15,10 @@ public class Query {
     }
 
 
-    @Scheduled(fixedRate = 1000)
-    public void queryStuff() {
-        String url = "http://localhost:8080/api/info";
-        String res = restTemplate.getForObject(url, String.class);
-        System.out.println(res);
-    }
+    // @Scheduled(fixedRate = 1000)
+    // public void queryStuff() {
+    // String url = "http://localhost:8080/api/info";
+    // String res = restTemplate.getForObject(url, String.class);
+    // System.out.println(res);
+    // }
 }
